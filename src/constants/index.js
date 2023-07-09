@@ -46,20 +46,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
-  },
-  {
     title: 'Backend Developer',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Frontend Developer',
+    icon: frontend,
   },
 ];
 
@@ -124,33 +116,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Software Developer',
+    company_name: 'Kereta Api Indonesia',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Nov 2022 - Present',
   },
+  {
+    title: 'Software Developer',
+    company_name: 'Padepokan Tujuh Sembilan',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'Ags 2022 - Present',
+  },
+  {
+    title: 'Software Developer',
+    company_name: 'Elzanteri Project',
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Jan 2019 - Jan 2020',
+  }
 ];
 
 const projects = [
@@ -268,4 +253,14 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const user = [
+  {
+    name: 'Syahril Lukman Nur Hakim',
+    callName: 'Syahril Lukman',
+    about: 'Software Developer',
+    curentWork : 'Kereta Api Indonesia And Padepokan 79',
+    overview: 'Im currently working at Kereta Api Indonesia And Padepokan 79 as a programmer while completing my final semester as a student. I specialize in backend development using Spring Boot,Express Js and Laravel. I am confident, motivated, and possess a creative mindset. With excellent communication skills, I actively seek new and challenging opportunities. I am proactive, fast learner, and have a strong work ethic. I believe in the power of adaptation, as I understand that learning everything is not feasible, but adapting to new situations is crucial. I thrive in dynamic environments that push me to grow. I am continuously seeking new and exciting experiences to expand my knowledge and skills',
+  }
+]
+
+export { services, technologies, experiences, projects ,user};
